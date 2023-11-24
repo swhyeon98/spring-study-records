@@ -42,6 +42,6 @@ public abstract class Item {
         if (stockQuantity < 0) {
             throw new NotEnoughStockException("need more stock");
         }
-        this.stockQuantity = stockQuantity;
+        this.stockQuantity = restStock;
     }
 }
