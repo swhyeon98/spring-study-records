@@ -30,7 +30,7 @@ public class ItemService {
         return findItem;
     }
 
-    public List<Item> findItem() {
+    public List<Item> findItems() {
         return itemRepository.findAll();
     }
 
