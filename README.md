@@ -19,6 +19,6 @@
 
 스프링 MVC 2편에서는 실무에 필수적인 웹 활용 기술을 배웁니다. 뷰 템플릿, 국제화, 검증, 쿠키, 세션 등의 고급 주제들을 실전 예제로 학습하며, 스프링 MVC의 심화 내용을 이해하는 데 도움을 받았습니다.
 
-[스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-boot-jpa-dev-webapp)
+[실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-boot-jpa-dev-webapp)
 
 이 항목에서는 회원, 상품, 주문 도메인이 포함된 간단한 웹 애플리케이션을 설계하고 개발하는 과정을 담고 있습니다. 스프링 부트와 JPA를 활용한 실무적인 웹 애플리케이션 개발 경험을 제공합니다.
