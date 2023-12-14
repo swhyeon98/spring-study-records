@@ -1,4 +1,4 @@
-<img src="https://github.com/swhyeon98/spring-study-records/assets/77083527/1cdc215a-01f3-44f9-bfd3-c2c7c3183b97" width="300" height="200"/>
+<img src="https://github.com/swhyeon98/spring-study-records/blob/main/img/spring-mvc2-web-util-tech.png" width="300" height="200"/>
 
 # Overview
 
