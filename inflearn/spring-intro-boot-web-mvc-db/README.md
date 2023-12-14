@@ -1,4 +1,4 @@
-<img src="https://github.com/swhyeon98/spring-intro-boot-web-mvc-db/assets/77083527/023d75c8-daf5-4150-8de6-295cbb42c2b4" width="300" height="200"/>
+<img src="https://github.com/swhyeon98/spring-study-records/blob/main/img/spring-intro-boot-web-mvc-db.png" width="300" height="200"/>
 
 # Overview
 
