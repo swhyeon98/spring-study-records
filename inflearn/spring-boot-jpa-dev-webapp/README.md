@@ -1,4 +1,4 @@
-<img src="https://github.com/swhyeon98/spring-boot-jpa-dev-webapp/assets/77083527/499b9ce2-8729-499c-83fa-7b812c3c0ff4" width="300" height="200"/>
+<img src="https://github.com/swhyeon98/spring-study-records/blob/main/img/spring-boot-jpa-dev-webapp.png" width="300" height="200"/>
 
 # Overview
 
