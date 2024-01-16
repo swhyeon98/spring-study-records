@@ -10,6 +10,10 @@
 - **Spring Boot**: 
   - thymeleaf-basic: [2.7.16]
   - form: [2.7.17]
+  - message: [2.7.17]
+  - validation: [2.7.17]
 - **Gradle**:
   - thymeleaf-basic: [8.3]
   - form: [6.8.2]
+  - message: [6.8.2]
+  - validation: [6.8.2]
