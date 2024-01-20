@@ -37,7 +37,7 @@ public class SessionManager {
         if (sessionCookie == null) {
             return null;
         }
-        return sessionStore.get(sessionCookie);
+        return sessionStore.get(sessionCookie.getValue());
     }
 
     /**
@@ -45,7 +45,7 @@ public class SessionManager {
      */
     public void expire(HttpServletRequest request) {
         Cookie sessionCookie = findCookie(request, SESSION_COOKIE_NAME);
-        if (sessionCookie == null) {
+        if (sessionCookie != null) {
             sessionStore.remove(sessionCookie.getValue());
         }
     }
@@ -55,7 +55,7 @@ public class SessionManager {
             return null;
         }
         return Arrays.stream(request.getCookies())
-                .filter(cookie -> cookie.getName().equals(cookie))
+                .filter(cookie -> cookie.getName().equals(cookieName))
                 .findAny()
                 .orElse(null);
     }
