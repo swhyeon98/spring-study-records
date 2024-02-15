@@ -12,8 +12,10 @@
   - form: [2.7.17]
   - message: [2.7.17]
   - validation: [2.7.17]
+  - login: [2.4.4]
 - **Gradle**:
   - thymeleaf-basic: [8.3]
   - form: [6.8.2]
   - message: [6.8.2]
   - validation: [6.8.2]
+  - login: [6.8.2]
