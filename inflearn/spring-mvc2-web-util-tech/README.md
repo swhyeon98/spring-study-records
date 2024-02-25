@@ -13,11 +13,11 @@
   - message: [2.7.17]
   - validation: [2.7.17]
   - login: [2.4.4]
-  - exception: [2.7.18]
+  - exception, typeconverter: [2.7.18]
 - **Gradle**:
   - thymeleaf-basic: [8.3]
   - form: [6.8.2]
   - message: [6.8.2]
   - validation: [6.8.2]
   - login: [6.8.2]
-  - exception: [8.5]
+  - exception, typeconverter: [8.5]
