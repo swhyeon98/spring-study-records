@@ -22,3 +22,5 @@
 [실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-boot-jpa-dev-webapp)
 
 이 항목에서는 회원, 상품, 주문 도메인이 포함된 간단한 웹 애플리케이션을 설계하고 개발하는 과정을 담고 있습니다. 스프링 부트와 JPA를 활용한 실무적인 웹 애플리케이션 개발 경험을 제공합니다.
+
+[스프링 DB 1편 - 데이터 접근 핵심 원리]
