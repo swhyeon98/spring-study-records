@@ -35,7 +35,7 @@ public class MemberRepositoryV5 implements MemberRepository {
     @Override
     public void update(String memberId, int money) {
         String sql = "update member set money = ? where member_id = ?";
-        template.update(sql, money, money);
+        template.update(sql, money, memberId);
     }
 
     @Override
