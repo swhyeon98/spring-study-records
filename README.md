@@ -9,11 +9,11 @@
 
 [스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-intro-boot-web-mvc-db)
 
-이 항목에서는 스프링 부트, 웹 MVC, DB 접근 기술의 기본을 담고 있습니다. 입문자를 위한 가이드로, 기본적인 개념부터 실제 코드 구현을 통해 스프링의 기본을 이해하는 데 큰 도움이 되었습니다.
+스프링 입문에서는 스프링 부트, 웹 MVC, DB 접근 기술의 기본을 담고 있습니다. 입문자를 위한 가이드로, 기본적인 개념부터 실제 코드 구현을 통해 스프링의 기본을 이해하는 데 큰 도움이 되었습니다.
 
 [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-mvc1-web-core-tech)
 
-이 항목에서는 자바 웹 기술의 기본부터 현대적인 스프링 MVC까지의 발전 과정을 배웠습니다. 직접 기본부터 MVC 프레임워크를 개발하며, 스프링 MVC의 내부 구조와 설계 원리를 깊이 있게 이해할 수 있었습니다.
+스프링 MVC 1편에서는 자바 웹 기술의 기본부터 현대적인 스프링 MVC까지의 발전 과정을 배웠습니다. 직접 기본부터 MVC 프레임워크를 개발하며, 스프링 MVC의 내부 구조와 설계 원리를 깊이 있게 이해할 수 있었습니다.
 
 [스프링 MVC 2편 - 백엔드 웹 개발 활용 기술](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-mvc2-web-util-tech)
 
@@ -21,6 +21,8 @@
 
 [실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-boot-jpa-dev-webapp)
 
-이 항목에서는 회원, 상품, 주문 도메인이 포함된 간단한 웹 애플리케이션을 설계하고 개발하는 과정을 담고 있습니다. 스프링 부트와 JPA를 활용한 실무적인 웹 애플리케이션 개발 경험을 제공합니다.
+이 항목에서는 회원, 상품, 주문 도메인이 포함된 간단한 웹 애플리케이션을 설계하고 개발하는 과정을 담고 있습니다. 스프링 부트와 JPA를 활용한 실무적인 웹 애플리케이션 개발 경험을 배울 수 있었습니다.
 
-[스프링 DB 1편 - 데이터 접근 핵심 원리]
+[스프링 DB 1편 - 데이터 접근 핵심 원리](https://github.com/swhyeon98/spring-study-records/tree/main/inflearn/spring-db1-data-access-principles)
+
+스프링 DB 1편에서는 JDBC부터 시작하여 스프링이 지원하는 데이터 접근 기술까지, 과거로부터 현재에 이르기까지의 데이터 접근 기술의 발전을 코드와 함께 다룹니다. 데이터 접근의 핵심 원리를 이해함으로써, 스프링을 통한 효율적인 데이터 관리 방법을 학습할 수 있었습니다.
