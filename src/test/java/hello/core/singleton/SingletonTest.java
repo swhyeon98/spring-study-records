@@ -28,4 +28,18 @@ public class SingletonTest {
         // memberService1 != memberService2
         assertThat(memberService1).isNotSameAs(memberService2);
     }
+
+    @Test
+    @DisplayName("싱글톤 패턴을 적용한 객체 사용")
+    void singletonServiceTest() {
+        SingletonService singletonService1 = SingletonService.getInstance();
+        SingletonService singletonService2 = SingletonService.getInstance();
+
+        System.out.println("singletonService1 = " + singletonService1);
+        System.out.println("singletonService2 = " + singletonService2);
+
+        // isSameAs은 Java에서 == 같은 메모리 주소를 참조하는지 확인한다. 즉, 두 객체가 완전히 동일한 객체인지 여부를 검사한다.
+        // isEqualTo은 Java에서 equal 두 객체의 값(value) 또는 상태(state)가 동일한지 확인한다.
+        assertThat(singletonService1).isEqualTo(singletonService2);
+    }
 }
