@@ -1,10 +1,11 @@
 package hello.core.order;
 
 import hello.core.AppConfig;
+import hello.core.discount.FixDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
-import hello.core.member.MemberServiceImpl;
+import hello.core.member.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -29,5 +30,19 @@ class OrderServiceTest {
 
         Order order = orderService.createOrder(memberId, "itemA", 10000);
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
+    }
+
+    @Test
+    void fieldInjectionTest() {
+        OrderServiceImpl orderService = new OrderServiceImpl();
+
+        Member member = new Member(1L, "memberA", Grade.VIP);
+
+        orderService.setMemberRepository(new MemoryMemberRepository());
+        orderService.setDiscountPolicy(new FixDiscountPolicy());
+
+        memberService.join(member);
+
+        orderService.createOrder(1L, "itemA", 10000);
     }
 }
